@@ -1,0 +1,167 @@
+
+body#registerBody {
+    padding-top: 350px;										 /* edited*/
+    
+}
+
+
+/* body#profileBody {   
+    background-image: url("images/forest.jpg");
+	background-size: cover;
+    
+} */
+
+
+.panel-login {
+	border-color: #ccc;
+	background-color: rgba(0, 0, 0, 0.2);       /* edited*/
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2); 
+}
+
+.panel-login>.panel-heading {
+	color: #00415d;
+	/*background-color: #fff;*/
+	background-color: rgba(0, 0, 0, 0.2);    /* edited*/
+	border-color: #fff;
+	text-align:center;
+	
+}
+
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: bold;
+	font-size: 15px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+	
+}
+.panel-login>.panel-heading a.active{
+	color: white;;
+	font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+
+.panel-login input[type="text"],
+.panel-login input[type="email"],
+.panel-login input[type="password"] {
+	height: 45px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+/*.panel-login input:hover*/
+.panel-login input:focus {
+	/*outline:none;*/
+	/*
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	*/
+	border-color: #ccc;
+	color: white;     /* edited*/
+}
+
+.btn-login {
+	background-color: green;    /* edited*/
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	opacity: 0.78;				 /* edited*/
+	/*border-color: #59B2E6;*/
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #1CA347;	 /* edited*/
+	/*border-color: #53A3CD;*/
+	
+}
+
+.forgot-password {
+	text-decoration: underline;
+	color: black;
+}
+
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: antiquewhite;		/* edited*/
+}
+
+.btn-register {
+	background-color: green;     /* edited*/
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	opacity: 0.78;				 /* edited*/
+	/*border-color: #1CB94A;*/
+}
+
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #1CA347; 
+	/*border-color: #1CA347;*/
+	
+}
+
+
+
+
+input.register:focus {														 /* edited*/
+	background-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+	overflow: hidden; 
+}
+
+
+input.profile:focus {														 /* edited*/
+	box-shadow: 0 0 10px grey;
+    border: 1px solid grey;
+	
+}
+
+/* double class selector */		
+.profile.invalid:focus,														 /* edited*/
+.register.invalid:focus { 	
+	border-color: #E9322D;
+	box-shadow: 0 0 6px #F8B9B7;
+}
+
+
+
+img.full-screen {															 /* edited*/
+		    min-height: 100%;
+		    min-width: 1024px;
+		    width: 100%;
+		    height: auto;
+		    position: fixed;
+		    top: 0;
+		    left: 0;
+		}
